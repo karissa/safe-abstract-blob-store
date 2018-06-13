@@ -1,0 +1,19 @@
+{
+  "name": "safe-abstract-blob-store",
+  "version": "1.0.0",
+  "description": "Safe in-memory blob store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karissa/safe-abstract-blob-store.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karissa/safe-abstract-blob-store/issues"
+  },
+  "homepage": "https://github.com/karissa/safe-abstract-blob-store#readme"
+}
