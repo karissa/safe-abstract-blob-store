@@ -7,16 +7,7 @@ Safe in-memory blob store
 > filesystem [blob store](https://github.com/maxogden/abstract-blob-store) with atomic writes and high file limits on Windows
 
 This module exposes the same API as
-[abstract-blob-store](https://github.com/mafintosh/abstract-blob-store), but with two
-additional features:
-
-1. File writes are atomic. This is done by maintaining a "staging" area in the
-   blob store that files are written to, and then renamed (using an atomic
-   syscall) to the destination filename upon completion.
-2. Window's NTFS file system has a limit of ~4 billion files in a directory.
-   FAT32 has a limit of ~65,000. This module transparently manages
-   subdirectories from the prefixes of given keys to avoid hitting this limit as
-   quickly.
+[abstract-blob-store](https://github.com/mafintosh/abstract-blob-store), but has a _list function for compatibility with `safe-fs-blob-store` -like modules
 
 ## Usage
 
