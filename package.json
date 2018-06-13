@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/karissa/safe-abstract-blob-store/issues"
   },
-  "homepage": "https://github.com/karissa/safe-abstract-blob-store#readme"
+  "homepage": "https://github.com/karissa/safe-abstract-blob-store#readme",
+  "dependencies": {
+    "abstract-blob-store": "^3.3.4"
+  }
 }
